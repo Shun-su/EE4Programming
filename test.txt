@@ -5,8 +5,8 @@ GitHubマスターになりたい！
 > git fetch
 > git pull
 > git commit --allow-empty -m "first commit"
-# リモートリポジトリを作成した段階で、"Initial Commit"が入っていたためコンフリクトが発生した。
-# 先にpullして、.gitignoreをローカルに持ってきてからコミットするみたい。いまいちよくわからんが先にpullするか git push --force でなとかなる。
+# リモートリポジトリを作成した段階で、なぜか"Initial Commit"があり、"first commit"とのコンフリクトが発生した。
+# 先にpullして、.gitignoreをローカルに持ってきてからコミットするみたい。よくわからんが先にpullするか git push --force でなとかなる。
 
 > git branch -m master main  # masterが好きだけど、リモートブランチはあんまりいじりたくないのでローカルをmaster→mainへ
 > (main*) git branch --set-upstream-to=origin/main. # リモートブランチとローカルブランチを同期させる。　これするとコマンドが楽になる。
