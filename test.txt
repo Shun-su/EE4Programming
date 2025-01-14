@@ -11,3 +11,12 @@ GitHubマスターになりたい！
 > git branch -m master main  # masterが好きだけど、リモートブランチはあんまりいじりたくないのでローカルをmaster→mainへ
 > (main*) git branch --set-upstream-to=origin/main. # リモートブランチとローカルブランチを同期させる。　これするとコマンドが楽になる。
 > (main*) git push
+
+ --- 公式はこうやれって言ってた ---
+> echo "# test" >> README.md
+> git init
+> git add README.md
+> git commit -m "first commit"
+> git branch -M main
+> git remote add origin <remote-SSH-URL>
+> git push -u origin main
